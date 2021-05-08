@@ -1,4 +1,4 @@
-#Docker PHP-FPM + Nginx installation
+# Docker PHP-FPM + Nginx installation
 
 This repository acts as a skeleton for setting up new applications using PHP-FPM and Nginx which are executed inside Docker.
 
