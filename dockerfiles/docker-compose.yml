@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  webapp:
+    build:
+      context: ./nginx
+    ports:
+      - 80:80
+    volumes:
+      - ./../app:/var/www/html
+  php-fpm:
+    build:
+      context: ./php-fpm
+      dockerfile: Dockerfile
+    extra_hosts:
+      - "host.docker.internal:172.17.0.1"
+    volumes:
+      - ./../app:/var/www/html
+
