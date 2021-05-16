@@ -5,7 +5,8 @@ This repository acts as a skeleton for setting up new applications using PHP-FPM
 ## What is included
 * PHP 7.4 setup (including Xdebug and correct permissions for write files for PHP process)
 * Nginx setup, including redirecting every request to index.php (useful for PHP frameworks).
-* Script for running the Composer.  
+* Script for running the Composer.
+* Script-wrapper to run console scripts within php-fpm container.  
 * MySQL container setup
 
 ## Usage
