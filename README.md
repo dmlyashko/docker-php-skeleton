@@ -3,7 +3,7 @@
 This repository acts as a skeleton for setting up new applications using PHP-FPM and Nginx which are executed inside Docker.
 
 ## What is included
-* PHP 7.4 setup (including Xdebug and correct permissions for write files for PHP process)
+* PHP 8.0 setup (including Xdebug and correct permissions for write files for PHP process)
 * Nginx setup, including redirecting every request to index.php (useful for PHP frameworks).
 * Script for running the Composer.
 * Script-wrapper to run console scripts within php-fpm container.  
