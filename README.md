@@ -13,10 +13,11 @@ This repository acts as a skeleton for setting up new applications using PHP-FPM
 
 1. Download repository files (more preferable via Zip file, if you want to keep your our application under source control)
 2. Go to repository folder
-3. `sh composer.sh init` (if you want to use Composer).
-4. Install your application inside `app` folder.
-5. Run `docker-compose up`.
-5. ...Congratulations! You can now access your application via http://localhost .
+3. `sh setup.sh`
+4. `sh composer.sh init` (if you want to use Composer).
+5. Install your application inside `app` folder.
+6. Run `docker-compose up`.
+7. ...Congratulations! You can now access your application via http://localhost .
 
 # Note:
 You can run arbitrary console commands within PHP-FPM container using handy script:
